@@ -32,7 +32,8 @@ hr {
     color: grey;
 }
 
-.link_group_heading {
-    margin-bottom: 0;
+.link-group-heading {
+    margin-bottom: 5px;
+    margin-top: 30px;
     text-align: center;
 }
