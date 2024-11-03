@@ -1,3 +1,7 @@
+body {
+    max-width: 800px;
+}
+
 section {
     padding: 0;
     max-width: 800px;
@@ -7,11 +11,28 @@ section:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+hr {
+    border: none;
+    border-top: 3px solid white;
+    margin: 20px 0; /* Optional: adjust spacing */
+}
+
 .link-header {
     margin-bottom: 5px;
 }
 
 .link-description {
     margin-top: 0;
+    text-align: center;
+}
+
+.resource-description {
+    margin-top: 0;
+    text-align: center;
+    color: grey;
+}
+
+.link_group_heading {
+    margin-bottom: 0;
     text-align: center;
 }
